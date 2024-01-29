@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageId>FmgLib.HttpClientHelper</PackageId>
+		<Summary>It is a library that offers you dynamism for the HttpClient service and contains methods that parse the returned response to the model you want.</Summary>
+		<Title>FmgLib.HttpClientHelper</Title>
+		<Version>1.0.3</Version>
+		<Authors>FmgYazılım</Authors>
+		<Company>Fmg Yazılım</Company>
+		<Copyright>©2024</Copyright>
+		<PackageProjectUrl>https://github.com/FmgLib/FmgLib.HttpClientHelper</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/FmgLib/FmgLib.HttpClientHelper</RepositoryUrl>
+		<UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+		<PackageTags>HttpClient, Client, Helper</PackageTags>
+		<Description>It is a library that offers you dynamism for the HttpClient service and contains methods that parse the returned response to the model you want.</Description>
+		<PackageIcon>nuget.png</PackageIcon>
+		<AssemblyVersion>1.0.3</AssemblyVersion>
+		<AssemblyFileVersion>1.0.3</AssemblyFileVersion>
+		<PackageVersion>1.0.3</PackageVersion>
+		<FileVersion>1.0.3</FileVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+	</ItemGroup>
+
+</Project>
