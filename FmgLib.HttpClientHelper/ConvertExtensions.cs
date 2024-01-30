@@ -66,7 +66,7 @@ public static class ConvertExtensions
     {
         try
         {
-            model = JsonSerializer.Deserialize<TModel>(str);
+            model = JsonSerializer.Deserialize<TModel>(str, SerializerSettings.Settings);
             return true;
         }
         catch
