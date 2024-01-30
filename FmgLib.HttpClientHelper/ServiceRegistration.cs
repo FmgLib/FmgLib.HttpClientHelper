@@ -12,4 +12,16 @@ public static class ServiceRegistration
 
         return services;
     }
+
+    public static IServiceCollection AddFmgLibHttpClient(this IServiceCollection services, Func<JsonSerializerOptions> optionsProvider = null)
+    {
+        services.AddHttpClient();
+
+        if (optionsProvider != null)
+        {
+            SerializerSettings.Settings = optionsProvider();
+        }
+
+        return services;
+    }
 }
