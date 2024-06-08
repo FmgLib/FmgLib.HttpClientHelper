@@ -1,9 +1,10 @@
 name: "Deploy to My Nuget"
 
 on:
+  workflow_dispatch:
   push:
-    tags:
-    - 'v*'
+    branches:
+    - master
 
 env:
   PROJECT_PATH: 'FmgLib.HttpClientHelper\FmgLib.HttpClientHelper.csproj'
