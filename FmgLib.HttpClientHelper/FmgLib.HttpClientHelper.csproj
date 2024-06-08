@@ -8,7 +8,6 @@
 		<PackageId>FmgLib.HttpClientHelper</PackageId>
 		<Summary>It is a library that offers you dynamism for the HttpClient service and contains methods that parse the returned response to the model you want.</Summary>
 		<Title>FmgLib.HttpClientHelper</Title>
-		<Version>1.1.0</Version>
 		<Authors>FmgYazılım</Authors>
 		<Company>Fmg Yazılım</Company>
 		<Copyright>©2024</Copyright>
@@ -18,10 +17,8 @@
 		<PackageTags>HttpClient, Client, Helper</PackageTags>
 		<Description>It is a library that offers you dynamism for the HttpClient service and contains methods that parse the returned response to the model you want.</Description>
 		<PackageIcon>nuget.png</PackageIcon>
-		<AssemblyVersion>1.1.0</AssemblyVersion>
-		<AssemblyFileVersion>1.1.0</AssemblyFileVersion>
-		<PackageVersion>1.1.0</PackageVersion>
-		<FileVersion>1.1.0</FileVersion>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -30,7 +27,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<None Include="LICENSE" Pack="true" PackagePath="" />
 		<None Include="nuget.png" Pack="true" PackagePath="" />
+		<None Include="README.md" Pack="true" PackagePath="" />
 	</ItemGroup>
 
 </Project>
